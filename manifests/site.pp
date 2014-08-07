@@ -55,8 +55,8 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
   include nginx
+  include gh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
