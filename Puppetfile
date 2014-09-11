@@ -61,3 +61,5 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "gh",          "2.0.0"
+github "virtualbox",  "1.0.13"
+github "vagrant",     "3.2.0"

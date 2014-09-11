@@ -88,4 +88,14 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  class { 'virtualbox':
+    version     => '4.3.16',
+    patch_level => '95972'
+  }
+
+  class { 'vagrant':
+    completion => true,
+    version    => '1.6.5'
+  }
 }
