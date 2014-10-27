@@ -90,8 +90,8 @@ node default {
   }
 
   class { 'virtualbox':
-    version     => '4.3.16',
-    patch_level => '95972'
+    version     => '4.3.18',
+    patch_level => '96516'
   }
 
   class { 'vagrant':
