@@ -56,6 +56,7 @@ node default {
   include dnsmasq
   include git
   include nginx
+  include python
   include gh
 
   # fail if FDE is not enabled

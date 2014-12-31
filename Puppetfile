@@ -60,6 +60,7 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "python",      "2.0.0"
 github "gh",          "2.0.0"
 github "virtualbox",  "1.0.13"
 github "vagrant",     "3.2.0"
