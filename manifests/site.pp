@@ -91,12 +91,12 @@ node default {
   }
 
   class { 'virtualbox':
-    version     => '4.3.20',
-    patch_level => '96996'
+    version     => '4.3.24',
+    patch_level => '98716'
   }
 
   class { 'vagrant':
     completion => true,
-    version    => '1.6.5'
+    version    => '1.7.2'
   }
 }
