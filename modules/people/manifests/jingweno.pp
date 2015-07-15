@@ -14,6 +14,8 @@ class people::jingweno {
       ensure => latest;
     'reattach-to-user-namespace':
       ensure => latest;
+    'ccat':
+      ensure => latest;
     'go':
       ensure => latest;
   }
