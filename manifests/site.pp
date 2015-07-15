@@ -68,6 +68,7 @@ node default {
   nodejs::version { 'v0.6': }
   nodejs::version { 'v0.8': }
   nodejs::version { 'v0.10': }
+  nodejs::version { 'v0.12': }
 
   # default ruby versions
   ruby::version { '1.9.3': }
@@ -75,6 +76,7 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
+  ruby::version { '2.2.2': }
 
   # common, useful packages
   package {
@@ -91,8 +93,8 @@ node default {
   }
 
   class { 'virtualbox':
-    version     => '4.3.28',
-    patch_level => '100309'
+    version     => '4.3.30',
+    patch_level => '101610'
   }
 
   class { 'vagrant':
