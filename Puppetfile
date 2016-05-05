@@ -68,4 +68,4 @@ github "xquartz",     "1.2.1"
 
 github "python",      "2.0.0"
 github "virtualbox",  "1.0.13"
-github "vagrant",     "3.2.2"
+github "vagrant",     "3.3.4"
