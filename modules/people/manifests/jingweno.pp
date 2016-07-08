@@ -16,8 +16,6 @@ class people::jingweno {
       ensure => latest;
     'ccat':
       ensure => latest;
-    'go':
-      ensure => latest;
   }
 
   $home       = "/Users/${::luser}"
